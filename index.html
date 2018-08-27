@@ -36,6 +36,8 @@
 
 <body style="overflow: auto;">
 
+
+
     <div class="content">
         <!-- #LOADER# -->
         <!-- other loader : http://tobiasahlin.com/spinkit/ -->
@@ -133,16 +135,16 @@
 
         <div class="lang-select" style="z-index:500;">
             <ul class="">
-                <li><a href="#"><img id="UKI" src="images/languajes/UK.png" alt="English" style="width: 48px; margin-bottom:10%;"></a></li>
+                <li><a id="UKI" alt="English" style="width: 48px; margin:0 10% 10% 0; font-size: 200%; cursor: pointer;">ENG</a></li>
                 <ul>
-                    <li><a id="ESP" href="#"><img src="images/languajes/ES.png"
-                                alt="Spanish" style="width: 48px; margin-bottom:10%;"></a></li>
+                    <li><a id="ESP" alt="Spanish" style="width: 48px; margin:0 10% 10% 0; font-size: 200%; cursor: pointer;">ESP</a></li>
                                 
                 <!--    <li><a id="ITA" href="#"><img src="images/languajes/IT.png" alt="Russian" style="width: 48px; margin-bottom:10%;"></a></li>-->
                 </ul>
             </ul>
         </div>
 
+            <div id="particles-js"></div>
 
         <!-- #CONTAINER# -->
         <div class="container">
@@ -1069,6 +1071,8 @@
 
     <!-- #JQUERY-PLUGINS# -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js" type='text/javascript'></script>
+    <script src="js/app.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/swiper.min.js"></script>
@@ -1078,6 +1082,7 @@
     <script src="js/form-scripts.js"></script>
     <script src="js/script.js"></script>
     <script src="js/toggle-languaje.js"></script>
+    
     <script>
         /**** EasyPieChart Circle Progress ****/
         $(function () {

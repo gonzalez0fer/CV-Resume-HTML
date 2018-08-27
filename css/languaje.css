@@ -35,3 +35,28 @@
 .it{
     display: none;
 }
+
+#UKI, #ESP{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.562)
+}
+
+#UKI:hover, #ESP:hover{
+    color: #f23a3a;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: fixed;
+  background-repeat:repeat;
+  background-size:cover;
+
+}
